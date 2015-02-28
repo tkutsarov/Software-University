@@ -1,0 +1,131 @@
+body{
+    background-image: url("../images/colorful-dots-on-black.jpg");
+    font-family: calibri;
+    margin: 0;
+
+}
+body>header{
+    height: 50px;
+    font-size: 40px;
+    text-align: center;
+    background: linear-gradient(to right, red 0%,red 33%,green 33%,green 67%,blue 67%, blue 100%);
+    color: yellow;
+}
+aside{
+    border-radius: 14px;
+    background-color: white;
+    opacity: 0.9;
+    float:left;
+    width: 15%;
+    margin: 10px 0px 10px 10px;
+    padding:8px;
+}
+aside nav header{
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+aside nav ul{
+    list-style-type: none;
+    padding: 0px 5px;
+}
+aside nav ul li:before {
+    content:'\2713';
+    display:inline-block;
+    vertical-align: 55%;
+    margin-left: 3px;
+    line-height: 16px;
+    width: 16px;
+    height:16px;
+    margin-right: 7px;
+    text-align: center;
+    color: white;
+    background-color: #16ea21;
+    border-radius: 50%;
+}
+aside nav ul li{
+    border-radius: 5px;
+    height:20px;
+}
+aside nav ul li a{
+    text-decoration: none;
+    color: black;
+    vertical-align: 50%;
+}
+aside nav ul li a:visited, footer a:visited{
+    color: #a5a3a2;
+}
+aside nav ul li:first-child:hover{
+    background-color: #eb0f0c;
+}
+aside nav ul li:nth-child(2):hover{
+    background-color: #f2cd38;
+}
+aside nav ul li:nth-child(3):hover{
+    background-color: yellow;
+}
+aside nav ul li:nth-child(4):hover{
+    background-color: #31872e;
+}
+aside nav ul li:nth-child(5):hover{
+    background-color: #0904ef;
+}
+aside nav ul li:nth-child(6):hover{
+    background-color: #814090;
+}
+section{
+    width: 82%;
+    float: right;
+    margin: 5px 5px;
+}
+section article{
+    border-radius: 12px;
+    margin: 5px;
+    padding: 8px;
+    background-color: #FCFCFC;
+    opacity: 0.9;
+}
+section article div::first-letter{
+    font-size:400%;
+}
+section article div::first-line{
+    font-style: italic;
+}
+section article>header{
+    height:20px;
+    font-size: 20px;
+    padding:8px;
+    border-radius: 6px;
+}
+section article header#webColors{
+    background-color: #eb0f0c;
+    color:white;
+}
+section article header#webSafeColors{
+    background-color: #f2cd38;
+}
+section article header#RGB{
+    background-color: yellow;
+}
+section article header#RGBA{
+    background-color: #31872e;
+    color:white;
+}
+section article header#\#HSLHSV{
+    background-color: #0904ef;
+    color:white;
+}
+section article header#\#lorem{
+    background-color: #814090;
+    color:white;
+}
+body section article span:lang(la){
+    font-style: italic;
+    color: blue;
+}
+body section article span:lang(la)::before, body section article span:lang(la)::after{
+    content:'"';
+}
+section article footer a{
+    color:black;
+}

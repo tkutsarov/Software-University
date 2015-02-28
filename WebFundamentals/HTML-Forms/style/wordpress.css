@@ -1,0 +1,10 @@
+img#start-logo{
+    width: 100px;
+    height:30px;
+}
+img#logo{
+    width:30px;
+    height:30px;
+    vertical-align: bottom;
+    margin-top:10px;
+}

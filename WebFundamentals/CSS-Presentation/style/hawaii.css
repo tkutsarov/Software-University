@@ -1,0 +1,63 @@
+body{
+
+}
+body,div{
+    margin:0;
+    padding:0;
+}
+@font-face {
+    font-family: "Party-font";
+    src: url("../style/fonts/Animated.ttf");
+}
+div#wrapper{
+    position:relative;
+}
+div#base{
+    position:relative;
+    width:1100px;
+    height:510px;
+    background-color:#eef589;
+    background-image: -moz-radial-gradient(15% 50%, ellipse closest-side, #eef589, #3091ff 100%);
+    background-image: -webkit-radial-gradient(15% 50%, ellipse closest-side, #eef589, #3091ff 100%);
+    background-image: -o-radial-gradient(15% 50%, ellipse closest-side, #eef589, #3091ff 100%);
+    background-image: -ms-radial-gradient(15% 50%, ellipse closest-side, #eef589, #3091ff 100%);
+    background-image: radial-gradient(15% 50%, ellipse closest-side, #eef589, #3091ff 100%)
+}
+div#picture{
+    position:absolute;
+    background: url("../img/HawaiiBackground.png") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width:1100px;
+    height:850px;
+}
+p{
+    font-family: Party-font;
+    float:right;
+    margin-right: 25px;
+    color:#FACC2E;
+    font-size: 40px;
+}
+.absolute{
+    position:absolute;
+}
+#vlg{
+    margin: 400px 0px 0px 70px;
+}
+#petia{
+    margin: 380px 0px 0px 210px;
+}
+#tedi{
+    margin: 540px 0px 0px 300px;
+}
+#nakov{
+    margin: 340px 0px 0px 455px;
+}
+#alex{
+    margin: 380px 0px 0px 540px;
+}
+#vlk{
+    margin: 410px 0px 0px 720px;
+}

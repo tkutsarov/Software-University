@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Fakebook Register Form</title>
+    <link rel="stylesheet" type="text/css" href="style/fakebook.css"/>
+</head>
+<body>
+    <div id="wrapper">
+        <h1 class="text-center">fakebook<span>&#174;</span></h1>
+        <h4 class="text-center">Registration</h4>
+        <p class="text-center">It is safe and it will always be!</p>
+        <form action="#" method="post">
+            <fieldset id="left-side">
+                <legend align="center">None-Important Information</legend>
+                <input type="text" name="first-name" placeholder="First Name">
+                <input type="text" name="last-name" placeholder="Last Name"><br>
+                <input type="email" name="email" placeholder="Your Email">
+                <input type="tel" name="telephone" placeholder="Phone Number"><br>
+                <input type="password" name="password" placeholder="Your Password">
+                <input type="url" name="site" placeholder="Website"><br>
+                <p>Birthday</p>
+                <input type="datetime" name="birthday" placeholder="05/09/2014 01:58 PM" id="birthday"><br>
+                <input type="radio" name="gender" value="female" class="gender">Female
+                <input type="radio" name="gender" value="male" class="gender">Male
+                <input type="radio" name="gender" value="other" class="gender" checked>Other
+            </fieldset>
+            <fieldset id="right-side">
+                <legend align="center">Important Information *required</legend>
+                <select>
+                    <option>Country</option>
+                    <option>Amber</option>
+                    <option>Alethkar</option>
+                    <option>Andor</option>
+                </select>
+                <input type="text" name="village" placeholder="Village" required="true">
+                <input type="text" name="district" placeholder="District" required="true"><br>
+                <input type="text" name="street" placeholder="Street" required="true">
+                <input type="text" name="str-num" placeholder="Nr" required="true" class="small">
+                <input type="number" name="flor" placeholder="Floor" required="true" class="small">
+                <input type="text" name="app-nr" placeholder="Ap-Nr" required="true" class="small"><br>
+                <p>Door Color</p>
+                <input type="color" name="color" value="#F6358A" required="true">
+                <input type="number" name="water" placeholder="Water Meter Nr" required="true">
+                <input type="number" name="aunt" placeholder="Aunt Panties' size" required="true"><br>
+                <p>More Personal Information</p>
+                <textarea name="more-info" placeholder="Give us more information!!!"></textarea>
+            </fieldset>
+            <input type="reset" value="Clear Form" id="reset">
+            <input type="submit" name="submit" value="Register" id="submit">
+        </form>
+    </div>
+</body>
+</html>

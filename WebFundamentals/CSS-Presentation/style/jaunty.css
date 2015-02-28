@@ -1,0 +1,78 @@
+div#wrapper{
+    width: 500px;
+    height: 200px;
+    padding: 20px;
+    border-top: 3px dotted yellow;
+    border-right: 5px solid green;
+    border-bottom: 3px double blue;
+    border-left: 3px dashed red;
+    box-shadow: 10px 10px 10px black;
+    font-family: calibri;
+    position: relative;
+}
+div#blue, div#green, div#yellow, div#red{
+    border: 2px solid;
+    border-radius: 50px;
+}
+div#blue{
+    border-color: blue;
+}
+div#green{
+    border-color: green;
+}
+div#yellow{
+    border-color: yellow;
+}
+div#red{
+    border-color: red;
+}
+p, div#input-center, h1{
+    text-align: center;
+}
+div#input-center{
+    margin-bottom: 10px;
+}
+h1, p{
+    text-shadow: 5px 5px 10px gray;
+}
+input{
+    color: black ;
+    background-color: #FFBF00 ;
+    border-top: 2px solid #F7D358 ;
+    border-right: 2px solid #DBA901 ;
+    border-bottom: 2px solid #DBA901 ;
+    border-left: 2px solid #F7D358 ;
+    text-align: center;
+}
+.rel{
+    position:absolute;
+    opacity: 0.7;
+    border: 2px solid black;
+}
+div#small{
+    margin: 125px 0px 0px 400px;
+    width:14px;
+    height:14px;
+    border: 2px dashed white;
+    border-radius: 50%;
+    background-color: gray;
+}
+div#middle{
+    margin: 100px 0px 0px 440px;
+    width:22px;
+    height:22px;
+    border: 2px dashed white;
+    border-radius: 50%;
+    background-color: gray;
+}
+div#huge{
+    margin: 60px 0px 0px 500px;
+    width:80px;
+    height:40px;
+    border: 2px dashed white;
+    border-radius: 35%;
+    background-color: gray;
+    text-align: center;
+    color: white;
+}
+

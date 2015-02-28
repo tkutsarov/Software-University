@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Simple form</title>
+    <link href="style/simple-form.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <div id="wrapper">
+        <h2 class="blue">Enter the system</h2>
+        <p class="gray">It is necessary to log in Your account in order to sign in for a course.</p>
+        <div id="register">
+            <p>ARE YOU NEW? <span class="blue">REGISTER</span></p>
+            <form action="#" method="get">
+                <input type="text" name="user-name" placeholder="User name"
+                       pattern="[a-zA-Z]+" required="true"><br>
+                <input type="text" name="email" placeholder="Email"
+                        pattern="^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$" required="true"><br>
+                <input type="password" name="password" placeholder="Password"><br>
+                <input type="password" name="password-confirm" placeholder="Confirm Password"><br>
+                <input type="submit" name="register" value="Register" class="blue" id="reg-button"><br>
+            </form>
+        </div>
+        <div id="login">
+            <p class="white">ALREADY A STUDENT? <span class="white">LOGIN</span></p>
+            <form action="#" method="get">
+                <input type="text" name="user-name" placeholder="User name"><br>
+                <input type="password" name="password" placeholder="Password"><br>
+                <input type="checkbox" name="remember-login-data">
+                <span class="white"> Remember me?</span>
+                <input type="submit" name="login-button" value="Login" class="white" id="log-button"><br>
+                <a href="#" class="white">Forgot Password</a>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

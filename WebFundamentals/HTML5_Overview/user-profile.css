@@ -1,0 +1,17 @@
+body {
+    background-color: #b9e6f5;
+}
+
+img {
+    width: 150px;
+    heigh: 150px;
+    border: solid black 1px;
+}
+
+ul.no-decoration {
+    list-style-type: none;
+}
+
+span {
+    font-style: italic;
+}

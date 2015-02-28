@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+}
+body div#wrapper{
+    background-color: lightgray;
+    width:500px;
+    height:250px;
+    padding:10px;
+}
+body div div#register{
+    float:left;
+    background-color: lightgray;
+    width: 240px;
+}
+body div div#login{
+    background-color: #234465;
+    display:inline-block;
+    height:190px;
+}
+h2,p,span,input,a{
+    margin:5px;
+}
+a{
+    float:right;
+}
+.blue{
+    color:#2B547E;
+}
+.white{
+    color:white;
+}
+#reg-button{
+    margin-right: 60px;
+    float:right;
+    height:20px;
+    width:100px;
+    border:1px solid #234465;
+}
+#log-button{
+    height:20px;
+    width:100px;
+    background-color: #234465;
+    border:1px solid orange;
+}

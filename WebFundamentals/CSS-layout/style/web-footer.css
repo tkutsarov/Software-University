@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+footer{
+    height:250px;
+    padding:20px 30px;
+    background-color: #234465;
+    font-family: calibri;
+}
+section{
+    display: inline-block;
+    float:left;
+    margin:0px 10px;
+}
+.col1{
+    width:15%;
+}
+.col2{
+    width:18%;
+}
+ul{
+    list-style: none;
+}
+    ul li{
+        margin:6px 0px;
+    }
+    ul#social-links > li > a > img{
+        width:25px;
+        height:25px;
+        border:1px solid white;
+        border-radius:5px;
+    }
+a{
+    text-decoration: none;
+    color:white;
+}
+.button{
+    width:140px;
+    height:30px;
+    border:1px solid #E99013;
+    display:inline-block;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 30px;
+}
+.heading-color{
+    font-size:80%;
+    color:#E99013;
+}
+.fb-like-box{
+    background-color: white;
+}
+.lower{
+    margin-top:20px;
+}
+.white{
+    color:white;
+}
+#social-links, #social-links > li{
+    display:inline-block;
+}

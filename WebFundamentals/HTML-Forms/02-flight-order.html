@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Flight Order</title>
+    <link rel="stylesheet" type="text/css" href="style/flight-order.css"/>
+</head>
+<body>
+    <div id="wrapper">
+        <h2>FLIGHT ORDER</h2>
+        <form action="#" method="get">
+            <div id="left-side">
+                <div>
+                    <label>From</label><br>
+                    <select>
+                        <option>Enter a city</option>
+                        <option>New York</option>
+                        <option>London</option>
+                    </select>
+                </div>
+                <div id="top-margin">
+                    <label>Departure Date</label><br>
+                    <input type="date" name="dep-date" placeholder="09.06.2014">
+                </div>
+                <div>
+                    <label>Return Date</label><br>
+                    <input type="date" name="dep-date" placeholder="13.06.2014">
+                </div>
+                <div class="inline">
+                    <label>12+</label><br>
+                    <input type="number" min="12" name="range" placeholder="0" class="nums">
+                </div>
+                <div class="inline">
+                    <label>2-12</label><br>
+                    <input type="number" min="2" max="12" name="range" placeholder="0" class="nums">
+                </div>
+                <div class="inline">
+                    <label>0-2</label><br>
+                    <input type="number" min="0" max="2" name="range" placeholder="0" class="nums">
+                </div>
+            </div>
+            <div id="right-side">
+                <div>
+                    <label>To</label><br>
+                    <select>
+                        <option>Enter a city</option>
+                        <option>New York</option>
+                        <option>London</option>
+                    </select>
+                </div>
+                <div>
+                    <input type="checkbox" name="direct-flight">
+                    <label>Prefer directs</label>
+                </div>
+                <div>
+                    <label>Time Interval</label><br>
+                    <input type="time" name="start-time" placeholder="00:20">
+                    <input type="time" name="end-time" placeholder="05:00">
+                </div>
+                <div>
+                    <label>Time Interval</label><br>
+                    <input type="time" name="start-time" placeholder="16:00">
+                    <input type="time" name="end-time" placeholder="22:00">
+                </div>
+                <div>
+                    <label>Choose Class</label><br>
+                    <select>
+                        <option selected="selected">Economy</option>
+                        <option>Business</option>
+                        <option>VIP</option>
+                    </select>
+                </div>
+                <input type="button" name="search" value="Search" id="button">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

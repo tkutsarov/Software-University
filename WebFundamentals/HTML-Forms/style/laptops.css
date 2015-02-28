@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+}
+section{
+    width:650px;
+    height:450px;
+    padding: 5px;
+    float:left;
+}
+section article{
+    display:inline-block;
+    width: 170px;
+    height: 170px;
+    margin:5px;
+    padding:5px;
+}
+section article img{
+    width:150px;
+    height:80px;
+}
+section article div.price{
+    width:80px;
+    height:25px;
+    text-align: center;
+    padding-top:7px;
+    float:right;
+    background-color: #3B5998;
+    color:white;
+    border-top-left-radius: 5px;
+}
+aside{
+    width:250px;
+    float:left;
+    padding:10px 0px;
+}
+aside label{
+    display: block;
+    text-align: center;
+}
+aside input{
+    width:100%;
+}
+span.right-span{
+    float:right;
+}

@@ -1,0 +1,40 @@
+body {
+    background-image: url("images/ppt-bcgrnd.jpg");
+    font-family: calibri;
+}
+
+h1 {
+    color: gold;
+    display: inline-block;
+}
+
+img {
+    width: 150px;
+    height: 45px;
+    float:right;
+    margin: 20px;
+}
+
+div {
+    border: solid lightgray 1px;
+    background-color: black;
+    color: beige;
+    margin-left: 12px;
+    margin-right: 80px;
+}
+
+ul {
+    list-style-type: square;
+}
+
+li {
+    color: gold;
+}
+
+li span {
+    color: white;
+    font-size: 22px;
+}
+b {
+    color: gold;
+}

@@ -1,0 +1,36 @@
+body{
+    overflow: hidden;
+    height:100%;
+
+}
+div#wrapper{
+    background-color: black;
+    border-radius: 10px;
+    font-family: calibri;
+    padding: 10px;
+}
+h1{
+    font-weight: bold;
+    text-align: center;
+}
+h1{
+    color:yellow;
+    font-size: 40px;
+}
+ul {
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: top;
+}
+iframe{
+    border: solid yellow 1px;
+    display: inline-block;
+    height: 200px;
+    width:295px;
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-size: 25px;
+    font-style: italic;
+}

@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+}
+div#wrapper{
+    width:750px;
+    padding:5px;
+    background-color: #3B5998;
+    color:white;
+    font-family: calibri;
+}
+h1{
+    font-size:80px;
+}
+span{
+    font-size:20px;
+}
+p{
+    margin: 5px 5px;
+}
+fieldset{
+    position:relative;
+    border-radius: 5px;
+    padding:5px;
+}
+.text-center{
+    text-align: center;
+}
+#left-side {
+    width:280px;
+    float:left;
+    margin-right:10px;
+    height:230px;
+}
+#right-side{
+    width:430px;
+    height:230px;
+}
+input,select{
+    width:120px;
+    border-radius: 5px;
+    margin:3px;
+}
+input.small{
+    width:60px;
+}
+input.gender{
+    width:20px;
+}
+input#reset{
+    width:290px;
+    height: 40px;
+    margin-top:10px;
+}
+input#submit{
+    width:440px;
+    height: 40px;
+    margin-top:10px;
+}
+textarea{
+    width:400px;
+    height:50px;
+    margin-left: 5px;
+}

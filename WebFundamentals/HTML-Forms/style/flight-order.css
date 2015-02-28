@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+div#wrapper{
+    width:370px;
+    background-color: lightpink;
+    padding:10px;
+    position:relative;
+}
+#left-side{
+    display: inline-block;
+    float: left;
+    margin-right: 5px;
+}
+
+#button{
+    width: 195px;
+    margin-left: 170px;
+}
+#top-margin{
+    margin-top:20px;
+}
+.nums{
+    width:40px;
+}
+.inline{
+    display:inline;
+    float:left;
+    width:45px;
+}
+h2{
+    text-align: center;
+}
+label,h2{
+    font-style: italic;
+}
+input,label{
+    margin: 3px 0px;
+}
