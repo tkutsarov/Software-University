@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Webinar</title>
+    <style>
+        form{
+            width: 180px;
+        }
+
+        #invoice{
+            width: 30px;
+        }
+        #invoice-data{
+            display: none;
+        }
+    </style>
+    <script>
+        function showInvoice() {
+            var invoice = document.getElementById('invoice');
+            var invoiceField = document.getElementById('invoice-data');
+
+            if (invoice.checked) {
+                invoiceField.style['display'] = 'block';
+            } else {
+                invoiceField.style['display'] = 'none';
+            }
+        }
+        showInvoice();
+    </script>
+</head>
+<body>
+    <h1>Регистрация за уебинар</h1>
+    <form>
+        <label>Име и Фамилия:</label>
+        <input type="text"/>
+        <label>Адрес:</label>
+        <input type="text"/>
+        <label>Населено място:</label>
+        <input type="text"/>
+        <label>Пощенски код:</label>
+        <input type="text"/>
+        <label>Email:</label>
+        <input type="text"/>
+        <label>Телефон:</label>
+        <input type="text"/>
+        <label>Дата на семинара:</label>
+        <input type="date"/></br>
+        <input type="checkbox" id="invoice" onclick="showInvoice()">
+        <p>Желая фактура</p>
+        <div id="invoice-data">
+            <label>Фирма/Организация:</label>
+            <input type="text"/>
+            <label>МОЛ:</label>
+            <input type="text"/>
+            <label>ЕИК:</label>
+            <input type="text"/>
+            <label>ИН по ДДС:</label>
+            <input type="text"/>
+            <label>Адрес:</label>
+            <input type="text"/>
+        </div>
+        <button>Регистрирай се</button>
+        <button>Изчисти</button>
+    </form>
+</body>
+</html>
